@@ -10,4 +10,6 @@ else:
 	url = 'https://drive.google.com/uc?id=' + drive_id
 	output = 'out.ipynb'
 	gdown.download(url, output, quiet=False)
+	os.system('pigar')
+	os.system('pip3 install -r requirements.txt')
 	print(os.listdir())

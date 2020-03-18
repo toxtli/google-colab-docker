@@ -1,1 +1,1 @@
-git pull && python3 app.py $1
+echo "Hello To $1"

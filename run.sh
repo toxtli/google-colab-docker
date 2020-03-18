@@ -1,1 +1,2 @@
-echo "Hello Friend $1"
+git pull
+echo "Hello My Friend $1"

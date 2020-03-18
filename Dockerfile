@@ -12,4 +12,4 @@ RUN pip3 install --no-cache-dir notebook pigar
 RUN git clone https://github.com/toxtli/google-colab-docker /opt/google-colab-docker
 WORKDIR /opt/google-colab-docker
 
-ENTRYPOINT git pull && ./run.sh
+ENTRYPOINT ["/bin/bash", "run.sh"]

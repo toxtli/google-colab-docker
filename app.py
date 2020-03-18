@@ -12,7 +12,9 @@ else:
 		drive_id = url.split('/').pop()
 	url = 'https://drive.google.com/uc?id=' + drive_id
 	output = 'out.ipynb'
+	output_py = 'out.py'
 	gdown.download(url, output, quiet=False)
+	os.system('jupyter nbconvert --to python ' + output)
 	os.system('pigar')
 	os.system('pip3 install -r requirements.txt')
-	os.system('jupyter run ' + output)
+	os.system('jupyter run ' + output_py)

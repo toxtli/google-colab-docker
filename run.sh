@@ -1,2 +1,1 @@
-git pull
-echo "Hello My Friend $1"
+git pull && python3 app.py $1

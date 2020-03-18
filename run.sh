@@ -1,2 +1,2 @@
-echo "Hello $1"
+echo "Hello Friend $1"
 

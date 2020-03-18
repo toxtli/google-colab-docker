@@ -13,5 +13,4 @@ RUN git clone https://github.com/toxtli/google-colab-docker /opt/google-colab-do
 WORKDIR /opt/google-colab-docker
 
 CMD git pull
-
-ENTRYPOINT /opt/google-colab-docker/run.sh
+CMD ./run.sh

@@ -17,4 +17,4 @@ else:
 	os.system('jupyter nbconvert --to python ' + output)
 	os.system('pigar')
 	os.system('pip3 install -r requirements.txt')
-	os.system('jupyter run ' + output_py)
+	os.system('jupyter run ' + output)

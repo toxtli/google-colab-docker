@@ -1,1 +1,1 @@
-echo "Hello To $1"
+python3 app.py $1

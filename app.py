@@ -13,4 +13,3 @@ else:
 	os.system('pigar')
 	os.system('pip3 install -r requirements.txt')
 	os.system('jupyter run ' + output)
-	print(os.listdir())
